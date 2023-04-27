@@ -78,7 +78,6 @@ with open('data.json', 'a') as f:
 conn = psycopg2.connect(
     dbname="sreality",
     user="postgres",
-    password="Jelenovgreben123",
     host="localhost",
     port="5432"
 )

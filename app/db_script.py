@@ -26,7 +26,7 @@ conn = psycopg2.connect(
     host="localhost",
     port="5432"
 )
-
+print(conn.status_code)
 # Create a new table to store the JSON data
 cur.execute("""
     CREATE TABLE IF NOT EXISTS apartments (

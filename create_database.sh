@@ -3,7 +3,6 @@
 # Set database name and credentials
 DB_NAME="postgres"
 DB_USER="postgres"
-DB_PASSWORD="Jelenovgreben123"
 DB_HOST="localhost"
 DB_PORT="5432"
 
