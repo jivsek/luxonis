@@ -8,7 +8,6 @@ conn = psycopg2.connect(
     host="localhost",
     database="sreality",
     user="postgres",
-    password="Jelenovgreben123"
 )
 
 # define a route to serve the apartments data
