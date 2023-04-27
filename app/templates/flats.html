@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Apartments</title>
+</head>
+<body>
+	{% for apartment in flats %}
+		<h2>{{ apartment.title }}</h2>
+		{% for image in apartment.images %}
+			<img src="{{ image }}" alt="Apartment Image">
+		{% endfor %}
+	{% endfor %}
+</body>
+</html>
