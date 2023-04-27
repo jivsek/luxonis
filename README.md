@@ -4,7 +4,7 @@ This project scrapes the first 500 flats from https://www.sreality.cz/ and saves
 
 ## Note
 
-When you run the code outside of docker it works fine, the flats are saved to a db and displayed on localhost:8080. When building a docker image I ran into a problem when creating a webpage request which I wasn't able to resolve https://github.com/psf/requests-html/issues/52.
+When you run the code outside of docker it works fine, the flats are saved to a db and displayed on localhost:8080. When building a docker image I ran into a problem when creating a webpage request which I wasn't able yet to resolve https://github.com/psf/requests-html/issues/52.
 
 ## Run the code without docker
 
