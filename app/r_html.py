@@ -18,7 +18,7 @@ for j in range(25):
 
     s = HTMLSession()
     r = s.get(page_url)
-    r.html.render(sleep=2)
+    r.html.render(sleep=2, timeout=15)
 
     flat_ads = r.html.xpath('//*[@id="page-layout"]/div[2]/div[3]/div[3]/div/div/div/div/div[3]/div', first=True)
 
